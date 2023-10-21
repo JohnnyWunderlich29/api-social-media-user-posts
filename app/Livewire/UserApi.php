@@ -24,7 +24,7 @@ class UserApi extends Component
 
         $response = $client->get('https://dummyapi.io/data/v1/user?limit=10', [
             'headers' => [
-                'app-id' => '651e17b3cc00f8af52684385',
+                'app-id' => 'YOUR_API_HERE',
                 'Content-type' => 'application/json',
                 'Accept' => 'application/json',
             ]
