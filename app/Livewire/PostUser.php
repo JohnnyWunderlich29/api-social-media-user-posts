@@ -23,7 +23,7 @@ class PostUser extends Component
         $client = new Client();
         $response = $client->get('https://dummyapi.io/data/v1/user/'.$this->user['id'].'/post', [
             'headers' => [
-                'app-id' => '651e17b3cc00f8af52684385',
+                'app-id' => 'YOUR_API_HERE',
                 'Content-type' => 'application/json',
                 'Accept' => 'application/json',
             ],
